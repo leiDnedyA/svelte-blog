@@ -1,5 +1,5 @@
 <script>
-	import snarkdown from 'snarkdown';
+	import {marked } from 'marked';
 	import { onMount } from 'svelte';
 
 	let html = '';
@@ -8,7 +8,7 @@
 		const response = await fetch('/home.md');
 		const md = await response.text();
 console.log(md);
-		html = snarkdown(md);
+		html = await marked.parse(md);
 	});
 
 </script>

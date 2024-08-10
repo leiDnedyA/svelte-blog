@@ -30,6 +30,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"snarkdown": "^2.0.0"
+		"marked": "^14.0.0"
 	}
 }
