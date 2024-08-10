@@ -1,4 +1,5 @@
-yden Diel
+# Ayden Diel
+
 Hi! I'm a developer from _Massachusetts_, and currently a Computer Science undergrad student at UMass Boston. Previously, I was a SWE intern at **Fidelity**.
 
 I'm also the president of the UMass Boston Computer Science Club! [Check us out on LinkedIn](https://www.linkedin.com/company/umass-boston-computer-science-club/)
@@ -18,8 +19,8 @@ In my free time, I like to read articles on [Hacker News](https://news.ycombinat
 ### Stuff I Like to Use
 - 🐍 **Python** - My go-to for any experiments or proof-of-concept app ideas
 - 📜 **TypeScript/JavaScript** - For anything on the web
-  - I've had a lot of work experience with **Next.js**, **React**, and **Angular**
-- Fun fact, I started learning JavaScript when I was 11 in 2015!
+	- I've had a lot of work experience with **Next.js**, **React**, and **Angular**
+	- Fun fact, I started learning JavaScript when I was 11 in 2015!
 - ☕ **Java** - Very nice for building robust backends and APIs
 - ⚙️ **C & C++** - For low level stuff, **CUDA** programming, and Arduino projects
 - 🐧 **Linux** (Ubuntu) - I seriously love Linux ❤️
