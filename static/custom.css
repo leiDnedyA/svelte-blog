@@ -1,0 +1,46 @@
+.tag {
+  background-color: #ff6a00;
+  color: white;
+  padding: 3px 7px;
+  border-radius: 3px;
+}
+
+.tag > a {
+  color: white;
+}
+
+ul.slight-spacing > li {
+  margin-top: 2px;
+}
+
+.tag.fidelity {
+  background-color: #0bb839;
+}
+
+.tag.datanext {
+  background-color: #0b50b8;
+}
+
+.tag.scaleai {
+  background-color: #9500cc;
+}
+
+.tag.umb {
+  background-color: #0b50b8;
+}
+
+.tag.presskit {
+  background-color: #0096c4;
+}
+
+.tag.dark {
+  background-color: #333;
+}
+
+.tag.expanded {
+  padding: 10px;
+}
+
+.bordered {
+  border-radius: 5px;
+}
