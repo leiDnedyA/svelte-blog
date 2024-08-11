@@ -1,3 +1,7 @@
+* {
+  scrollbar-gutter: stable;
+}
+
 .tag {
   background-color: #ff6a00;
   color: white;

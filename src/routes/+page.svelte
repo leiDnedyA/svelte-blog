@@ -13,8 +13,4 @@ console.log(md);
 
 </script>
 
-<h1><span class="tag dark expanded">💻</span></h1>
-
 {@html html}
-<link rel="stylesheet" href="/neat.css" />
-<link rel="stylesheet" href="/custom.css" />
