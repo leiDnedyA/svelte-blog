@@ -48,7 +48,7 @@ QRPigeon is a tool for transferring files quickly from a mobile device to a PC a
 4. Look back at your desktop, and see the file from your mobile device appear automagically™
 5. Click the "Download" button on any item on the desktop, and you're done!
 
-![QRPigeon screenshot](qrpigeon.png)
+![QRPigeon screenshot](home/qrpigeon.png)
 
 ### C File Explorer | [Source Code](https://github.com/leiDnedyA/c-file-explorer)
 **C** **Linux** **Bash**
@@ -56,7 +56,7 @@ QRPigeon is a tool for transferring files quickly from a mobile device to a PC a
 C File Explorer is a terminal-based file explorer, built with the goal of speeding up navigation in the Linux terminal. This was a great excuse to get better at C and the Linux platform!
 
 <video class="bordered" width="100%" autoplay loop muted>
-    <source src="c-file-explorer.webm" type="video/webm">
+    <source src="home/c-file-explorer.webm" type="video/webm">
 </video>
 
 ### Thrift Router | [Source Code](https://github.com/leiDnedyA/thrift-router)
@@ -64,7 +64,7 @@ C File Explorer is a terminal-based file explorer, built with the goal of speedi
 
 Based on your current location, Thrift Router will find the fastest route to all of the thrift stores in your area, and allow you to open the route in Google Maps or Apple Maps!
 
-![Thrift Router demo](thrift-router.gif)
+![Thrift Router demo](home/thrift-router.gif)
 
 ## Blog
 Coming soon :-)
@@ -72,7 +72,7 @@ Coming soon :-)
 ## Resume
 Download a copy of my resume [here](resume.pdf), or check it out in the preview below
 
-<embed class="bordered" src="resume.pdf" width="100%" height="500px" type="application/pdf">
+<embed class="bordered" src="home/resume.pdf" width="100%" height="500px" type="application/pdf">
 
 ## Contact Me
 
