@@ -1,7 +1,8 @@
-## About Me
-I love building tools that make peoples' lives easier, and I love learning new skills. I started coding when I was 12, and since then, seeing people use the things that I create has never gotten old :-)
+# About Me
 
-In my free time, I like to read articles on [Hacker News](https://news.ycombinator.com/), read books, draw, lift weights, learn languages, and contribute to [open source](https://github.com/leiDnedyA)!
+I've been messing around with computers since I was a kid, and now it's turned into my career!
+
+I'm currently persuing a bachelor's degree in _Computer Science_ at <span class="tag umb">UMass Boston</span>, and I've been working part-time and full-time Software Engineering roles for the past ~2 years. Here are some of the jobs I've worked:
 
 ## Work Experience
 - _Jun - Aug 2024_ | Software Engineer Intern @ **[Fidelity Investments](https://www.fidelity.com/)**
@@ -12,12 +13,12 @@ In my free time, I like to read articles on [Hacker News](https://news.ycombinat
 - _May - Sep 2023_ | Summer Computer Science Research Assistant @ **[UMass Boston](https://cs.umb.edu/)**
 - _Feb - May 2023_ | TA for Intro to Computer Science @ **[UMass Boston](https://cs.umb.edu/)**
 
-### Stuff I Like to Use
+## Stuff I Like to Use
 - 🐍 **Python** - My go-to for any experiments or proof-of-concept app ideas
 - 📜 **TypeScript/JavaScript** - For anything on the web
 	- I've had a lot of work experience with **Next.js**, **React**, and **Angular**
     - For side projects (including this portfolio), I like to use **Svelte**!
-	- Fun fact, I started learning JavaScript when I was 11 in 2015!
+	- Fun fact, JavaScript was the first language I learned!
 - ☕ **Java** - Very nice for building robust backends and APIs
 - ⚙️ **C & C++** - For low level stuff, **CUDA** programming, and Arduino projects
 - 🐧 **Linux** (Ubuntu) - I seriously love Linux ❤️
