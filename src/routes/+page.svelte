@@ -1,16 +1,5 @@
 <script>
-	import {marked } from 'marked';
-	import { onMount } from 'svelte';
-
-	let html = '';
-
-	onMount(async () => {
-		const response = await fetch('/home.md');
-		const md = await response.text();
-console.log(md);
-		html = await marked.parse(md);
-	});
-
+  import Markdown from '../components/Markdown.svelte';
 </script>
 
-{@html html}
+<Markdown src="/home.md"/>
