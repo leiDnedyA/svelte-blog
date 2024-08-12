@@ -8,10 +8,10 @@
 			label: 'Home',
 			path: '/'
 		},
-{
-label: 'About',
-path: '/about'
-},
+		{
+			label: 'About',
+			path: '/about'
+		},
 		{
 			label: 'Blog',
 			path: '/blog'
@@ -28,11 +28,9 @@ path: '/about'
 </script>
 
 <div class="navbar-container">
-	<span class="code">{'<!--'}</span>
 	{#each routes as route}
 		<a href={route.path}>{route.label}</a>
 	{/each}
-	<span class="code">{'-->'}</span>
 </div>
 
 <style>
@@ -48,15 +46,10 @@ path: '/about'
 		justify-content: center;
 	}
 
-  .code {
-  color: #888;
-cursor: default;
-}
-
 	.navbar-container > a {
 		text-decoration: none;
 		font-weight: bold;
-transition: color 150ms;
+		transition: color 150ms;
 	}
 
 	.navbar-container > a:hover {

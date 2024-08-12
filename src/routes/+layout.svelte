@@ -1,12 +1,20 @@
 <script>
-import Navbar from "../components/Navbar.svelte";
+	import Navbar from '../components/Navbar.svelte';
 </script>
 
 <link rel="stylesheet" href="/neat.css" />
 <link rel="stylesheet" href="/custom.css" />
 
-<Navbar/>
+<Navbar />
 
-<h1><span class="tag dark expanded">💻</span></h1>
+<h1 class="main-header"><span class="tag dark expanded">💻</span></h1>
 
-<slot/>
+<slot />
+
+<style>
+	.main-header {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+	}
+</style>
