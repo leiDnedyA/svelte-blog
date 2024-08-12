@@ -9,8 +9,8 @@
   border-radius: 3px;
 }
 
-.tag > a {
-  color: white;
+.tag > a, span.tag {
+  color: var(--light);
 }
 
 ul.slight-spacing > li {
