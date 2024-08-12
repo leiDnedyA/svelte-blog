@@ -1,5 +1,10 @@
 * {
   scrollbar-gutter: stable;
+  scrollbar-color: #aaa transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 .tag {

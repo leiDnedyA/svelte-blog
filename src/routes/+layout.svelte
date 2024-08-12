@@ -1,5 +1,6 @@
 <script>
 	import Navbar from '../components/Navbar.svelte';
+	import BackgroundSpotlight from '../components/BackgroundSpotlight.svelte';
 </script>
 
 <link rel="stylesheet" href="/neat.css" />
@@ -7,9 +8,10 @@
 
 <Navbar />
 
-<h1 class="main-header"><span class="tag dark expanded">💻</span></h1>
+<h1 class="main-header"><span>💻</span></h1>
 
 <slot />
+<BackgroundSpotlight />
 
 <style>
 	.main-header {
