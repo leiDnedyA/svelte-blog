@@ -8,7 +8,7 @@
 	let topPosition = 0;
 	let leftPosition = 0;
 	let blurHeight = 0;
-  let showBlob = false;
+	let showBlob = false;
 
 	const mouseMoveCallback = (event: MouseEvent) => {
 		const PADDED_DIAGONAL_LENGTH = DIAGONAL_LENGTH * 1.4;
@@ -39,13 +39,13 @@
 	};
 
 	const updateBlurHeight = () => {
-    showBlob = false;
+		showBlob = false;
 		setTimeout(() => {
 			blurHeight =
 				window.innerHeight > document.body.scrollHeight
 					? window.innerHeight
 					: document.body.scrollHeight;
-      showBlob = true;
+			showBlob = true;
 		}, 50);
 	};
 
@@ -113,6 +113,15 @@
 
 		to {
 			rotate: 360deg;
+		}
+	}
+
+	@media (max-width: 800px) {
+		.blob {
+			display: none;
+		}
+		.blur {
+			display: none;
 		}
 	}
 </style>

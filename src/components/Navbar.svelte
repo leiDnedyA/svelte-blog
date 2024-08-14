@@ -28,8 +28,10 @@
 </script>
 
 <div class="navbar-container">
-	<strong class="name">👨‍💻 Ayden Diel</strong>
-	<span> - </span>
+	<div class="name-container">
+		<strong class="name">👨‍💻 Ayden Diel</strong>
+		<span> - </span>
+	</div>
 	{#each routes as route}
 		<a href={route.path}>{route.label}</a>
 	{/each}
@@ -63,5 +65,15 @@
 
 	.name {
 		color: var(--dark);
+	}
+
+	.name-container {
+		display: contents;
+	}
+
+	@media (max-width: 786px) {
+		.name-container {
+			display: none;
+		}
 	}
 </style>
