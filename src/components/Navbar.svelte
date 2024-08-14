@@ -28,6 +28,8 @@
 </script>
 
 <div class="navbar-container">
+	<strong class="name">👨‍💻 Ayden Diel</strong>
+	<span> - </span>
 	{#each routes as route}
 		<a href={route.path}>{route.label}</a>
 	{/each}
@@ -44,15 +46,22 @@
 		margin-top: 2rem;
 		margin-bottom: 2rem;
 		justify-content: center;
+		cursor: default;
 	}
 
 	.navbar-container > a {
 		text-decoration: none;
 		font-weight: bold;
+		color: var(--midtone);
 		transition: color 150ms;
+		cursor: pointer;
 	}
 
 	.navbar-container > a:hover {
-		color: orangered;
+		color: var(--link);
+	}
+
+	.name {
+		color: var(--dark);
 	}
 </style>

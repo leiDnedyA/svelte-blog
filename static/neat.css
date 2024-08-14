@@ -1,27 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 :root {
     color-scheme: light dark;
-    /* --light: #fff; */
-    /* --lesslight: #efefef; */
-    /* --dark: #404040; */
-    /* --moredark: #000; */
-    /* --link: royalblue; */
     --light: #000;
     --lesslight: #0a0a0a;
-    --dark: #afafaf;
+    --midtone: #999;
+    --dark: #ccc;
     --moredark: #fff;
     --link: royalblue;
-    line-height: 1.5em;
-    font-family: system-ui, sans-serif;
-    font-size: 16px;
+    line-height: 1.75;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
     color: var(--dark);
 }
 
-h1 {
-    line-height: 1em;
+h1, h2 {
+    color: var(--moredark);
 }
 
 button, input {
@@ -55,9 +53,13 @@ body {
     margin-right: auto;
 }
 
+strong {
+  color: var(--moredark);
+}
+
 a {
     outline: none;
-    color: var(--dark);
+    color: var(--moredark);
 }
 
 a:hover {

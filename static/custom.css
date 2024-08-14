@@ -1,3 +1,9 @@
+body {
+  min-height: 100vh;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 * {
   scrollbar-gutter: stable;
   scrollbar-color: #aaa transparent;
@@ -15,7 +21,7 @@
 }
 
 .tag > a, span.tag {
-  color: var(--light);
+  color: var(--moredark);
 }
 
 ul.slight-spacing > li {
