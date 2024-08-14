@@ -14,7 +14,7 @@ body {
 }
 
 .tag {
-  background-color: #ff6a00;
+  background-color: var(--link);
   color: white;
   padding: 3px 7px;
   border-radius: 3px;
@@ -29,7 +29,7 @@ ul.slight-spacing > li {
 }
 
 .tag.fidelity {
-  background-color: #0bb839;
+  background-color: #027148;
 }
 
 .tag.datanext {
@@ -38,10 +38,6 @@ ul.slight-spacing > li {
 
 .tag.scaleai {
   background-color: #9500cc;
-}
-
-.tag.umb {
-  background-color: #0b50b8;
 }
 
 .tag.presskit {

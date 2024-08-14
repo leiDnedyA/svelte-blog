@@ -7,4 +7,4 @@ Additionally, feel free to add me on [LinkedIn](https://www.linkedin.com/in/ayde
 ## Resume
 You can download a copy of my resume [here](resume.pdf), or check it out in the preview below
 
-<embed class="bordered" src="home/resume.pdf" width="100%" height="500px" type="application/pdf">
+<embed class="bordered" src="contact/resume.pdf" width="100%" height="500px" type="application/pdf">
