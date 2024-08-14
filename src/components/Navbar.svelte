@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	interface Route {
 		label: string;
 		path: string;
@@ -33,7 +34,7 @@
 		<span> - </span>
 	</div>
 	{#each routes as route}
-		<a href={route.path}>{route.label}</a>
+		<a href={base + route.path}>{route.label}</a>
 	{/each}
 </div>
 

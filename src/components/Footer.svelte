@@ -1,19 +1,20 @@
 <script>
+	import { base } from '$app/paths';
 	const currentYear = new Date().getFullYear();
 </script>
 
 <footer class="footer-container">
 	<div class="left-section">
 		<p>
-			<a href="/home">Home</a>
+			<a href={base + '/'}>Home</a>
 			{' · '}
-			<a href="/blog">Blog</a>
+			<a href={base + '/blog'}>Blog</a>
 			{' · '}
-			<a href="/portfolio">Portfolio</a>
+			<a href={base + '/portfolio'}>Portfolio</a>
 			{' · '}
-			<a href="/about">About</a>
+			<a href={base + '/about'}>About</a>
 			{' · '}
-			<a href="/contact">Contact Me</a>
+			<a href={base + '/contact'}>Contact Me</a>
 		</p>
 		<p>Drop me an email: <a href="mailto:aydendiel@gmail.com">aydendiel@gmail.com</a></p>
 		<p>
