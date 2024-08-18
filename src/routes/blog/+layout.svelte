@@ -1,4 +1,5 @@
 <script>
+  import { base } from '$app/paths';
 	const modules = import.meta.glob('../posts/**');
 
 	const postRoutes = Object.keys(modules)
@@ -6,7 +7,7 @@
 		.map((path) => {
 			const name = path.split('/')[2];
 			return {
-				path: `../posts/${name}`,
+				path: `${base}/posts/${name}`,
 				label: name[0].toUpperCase() + name.slice(1).replaceAll('-', ' ')
 			};
 		});
