@@ -20,7 +20,7 @@ Here are some of the projects that I've built! For more examples, feel free to c
 
 **C File Explorer** is a terminal-based file explorer, built with the goal of speeding up navigation in the Linux terminal. This was a great excuse to get better at **C** and the **Linux terminal**!
 
-<video class="bordered" width="100%" autoplay loop muted>
+<video class="bordered" width="100%" autoplay loop muted playsinline>
     <source src="portfolio/c-file-explorer.webm" type="video/webm">
 </video>
 
