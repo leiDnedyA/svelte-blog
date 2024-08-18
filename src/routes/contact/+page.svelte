@@ -2,4 +2,4 @@
 import Markdown from "../../components/Markdown.svelte";
 </script>
 
-<Markdown src="contact/contact.md"/>
+<Markdown src="/contact/contact.md"/>
