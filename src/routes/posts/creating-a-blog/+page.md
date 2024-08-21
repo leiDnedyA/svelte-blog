@@ -30,6 +30,3 @@ Other than the posts being tech related, I'm not sure what I'll post exactly. So
 
 Basically I'd be writing about what I know, and what I know is beginner/intermediate level programming and career stuff. My **long-term goal**, however, is to build my blogging skills _alongside_ my coding skill so that by the time I get to the really interesting computer science stuff that I want to do, I'll be able to blog about it and share my thoughts easily!
 
-## Conclusion
-
-Overall, building this blog was pretty fun. Worst case scenario, I got practice with GitHub actions and SvelteKit and now have a singular blog post sitting on my porfolio site! If you're a newbie in the tech industry or generally just bored, I definitely recommend spending some time putting a blog together like this, as it's a fun side project and can make your portfolio site look a lot more legit!
