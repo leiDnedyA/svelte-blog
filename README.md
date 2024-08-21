@@ -1,39 +1,7 @@
-# create-svelte
+# This is my blog! 
 
+My goal with this was to build a **cool portfolio** with **statically rendered markdown** content that can be hosted for free on **GitHub pages** and use **GitHub actions** for deployment, and that's pretty much been completed. (I also wanted to learn **Svelte**).
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+So, if you're looking for a quick setup for a site like that feel free to fork this repo and make it your own :)
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+![wizard on laptop](static/images/wizard-on-laptop.jpg)

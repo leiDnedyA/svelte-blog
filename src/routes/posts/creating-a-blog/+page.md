@@ -1,7 +1,7 @@
 # Having Fun Creating a Blog
 _Ayden Diel, Aug 18, 2024_
 
-![wizard on laptop](../wizard-on-laptop.jpg)
+![wizard on laptop](../images/wizard-on-laptop.jpg)
 
 A few months ago, I got into the habit of reading [hackernews](https://news.ycombinator.com/) articles for at least a few hours every week. 
 
