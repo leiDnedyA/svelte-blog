@@ -5,6 +5,7 @@ My name is **Ayden Diel** and I like programming, language learning, art, and mu
 I'm currently persuing a _bachelor's degree_ in **Computer Science** at <span class="tag">UMass Boston</span>, and I've been working part-time and full-time Software Engineering roles for the past **2 years**. Here are some of the jobs I've worked:
 
 ## Work Experience
+- _Aug 2024 - Now_ | Full-Stack Developer @ <span class="tag datanext"><a href="https://datanextsolutions.com/">DataNext Solutions</a></span>
 - _Jun - Aug 2024_ | Software Engineer Intern @ <span class="tag fidelity"><a href="https://www.fidelity.com/">Fidelity Investments</a></span>
 - _Apr - Jun 2024_ | Full-Stack Developer @ <span class="tag datanext"><a href="https://datanextsolutions.com/">DataNext Solutions</a></span>
 - _Jan - Apr 2024_ | AI Coding Trainer & Technical Interviewer @ <span class="tag scaleai"><a href="https://scale.com/">Scale AI</a></span>
