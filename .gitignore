@@ -5,6 +5,8 @@ node_modules
 .vercel
 /.svelte-kit
 /build
+/src/routes/posts/*
+!/src/routes/posts/+page.svelte
 
 # OS
 .DS_Store
