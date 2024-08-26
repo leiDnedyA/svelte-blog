@@ -49,12 +49,17 @@
 		}, 50);
 	};
 
-	onMount(async () => {
+	onMount(() => {
 		[leftPosition, topPosition] = [window.innerWidth / 2, 0];
 		document.addEventListener('mousemove', mouseMoveCallback);
 
-		window.addEventListener('resize', updateBlurHeight);
 		updateBlurHeight();
+
+		const resizeObserver = new ResizeObserver(updateBlurHeight);
+		resizeObserver.observe(document.body);
+		return () => {
+			resizeObserver.unobserve(document.body);
+		};
 	});
 	afterNavigate(updateBlurHeight);
 </script>
