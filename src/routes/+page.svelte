@@ -11,8 +11,7 @@ I'm also the president of the <span class="tag umb">UMass Boston Computer Scienc
 
 ## My Blog
 
-To see what I'm up to, check out my blog posts!
-
-![cookie monster pointing down](images/cookie-monster.gif)
+<img src="images/cookie-monster.gif" alt="cookie monster pointing down" width="200"/>
 
 <PostList />
+

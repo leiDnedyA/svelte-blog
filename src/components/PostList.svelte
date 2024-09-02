@@ -56,32 +56,44 @@
 
 <div class="post-link-container">
 	{#each postRoutes as route}
-		<p class="post-link"><a href={route.path}>{route.label}</a> - {route.date}</p>
+		<a href={route.path} class="post-link"><p><strong>{route.label}</strong> - {route.date}</p></a>
 	{/each}
 </div>
 
 <style>
 	.post-link {
+		display: block;
 		font-size: 1.1em;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		color: rgba(255, 255, 255, 0.5);
 		padding-bottom: 1em;
+		padding-top: 1em;
 		padding-left: 2em;
-	}
-
-	.post-link > a {
-		text-decoration: none;
+		margin: 0;
 		font-weight: bold;
-		color: var(white);
-		transition: color 150ms;
+		transition: background-color 200ms;
 		cursor: pointer;
-	}
-
-	.post-link > a:hover {
-		color: var(--link);
+		border-radius: 5px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 	}
 
 	.post-link:last-child {
 		border-bottom: none;
-		padding-bottom: unset;
+	}
+
+	.post-link:hover {
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+
+	.post-link > p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.post-link > strong {
+		color: white;
+	}
+
+	a {
+		text-decoration: none;
 	}
 </style>
