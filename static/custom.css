@@ -18,6 +18,7 @@ body {
   color: white;
   padding: 3px 7px;
   border-radius: 3px;
+  text-wrap: nowrap;
 }
 
 .tag > a, span.tag {
