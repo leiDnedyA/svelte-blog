@@ -40,8 +40,15 @@ pre {
     overflow: auto;
 }
 
-code {
-    background-color: var(--lesslight);
+code:not(.language-*) {
+    background-color: var(--midtone);
+    color: var(--light);
+    font-family: monospace;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 2px;
 }
 
 body {

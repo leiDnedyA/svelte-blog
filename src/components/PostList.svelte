@@ -50,13 +50,38 @@
 			const result = new Date(a.date).getTime() < new Date(b.date).getTime();
 			return result ? 1 : -1;
 		});
-
 </script>
 
 <slot />
 
-<ul>
+<div class="post-link-container">
 	{#each postRoutes as route}
-		<li>{route.date}: <a href={route.path}>{route.label}</a></li>
+		<p class="post-link"><a href={route.path}>{route.label}</a> - {route.date}</p>
 	{/each}
-</ul>
+</div>
+
+<style>
+	.post-link {
+		font-size: 1.1em;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		padding-bottom: 1em;
+		padding-left: 2em;
+	}
+
+	.post-link > a {
+		text-decoration: none;
+		font-weight: bold;
+		color: var(white);
+		transition: color 150ms;
+		cursor: pointer;
+	}
+
+	.post-link > a:hover {
+		color: var(--link);
+	}
+
+	.post-link:last-child {
+		border-bottom: none;
+		padding-bottom: unset;
+	}
+</style>
