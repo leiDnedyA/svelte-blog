@@ -1,8 +1,6 @@
 # Practical Guide to Switching to Linux
 
-<video width="640" height="360" autoplay loop>
-    <source src="../images/tmux_nvim.webm" type="video/mp4">
-</video>
+![](../images/tmux_nvim.gif)
 
 This blog post is dedicated to **junior developers on Windows or Mac** who are curious about **switching to Linux** for software development! Please note that I am *not an expert* on Linux. There are pleanty of things that I don't know about the OS, and am constantly learning. The goal of this post is to share my unique perspective, as well as some tricks I've picked up along the way. This article covers the following:
 1. What are the **benefits** of developing on Linux?
