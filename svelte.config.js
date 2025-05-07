@@ -1,13 +1,16 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
+import remarkFootnotes from 'remark-footnotes';
+import remarkGfm from 'remark-gfm';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   // Consult https://kit.svelte.dev/docs/integrations#preprocessors
   // for more information about preprocessors
   preprocess: [vitePreprocess(), mdsvex({
-    extensions: ['.md', '.svelte']
+    extensions: ['.md', '.svelte'],
+    remarkPlugins: [[remarkFootnotes, { inlineNotes: true }]],
   })],
   extensions: ['.svelte', '.md'],
   kit: {
