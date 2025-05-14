@@ -41,7 +41,7 @@ the user doing anything manually.
 ![image of the diagram](../images/network-diagram.png)
 *network diagram for this architecture, where "host device"=laptop and "external device"=esp32.*
 
-## The implementation and testing
+## The implementation
 Once we had a clear plan for our solution, we spent a few hours hacking away at this thing until we eventually 
 had a working version, which totalled in around 300 lines of C++/Arduino and Python. The main test case was to 
 connect to one of my university WiFi networks and then turn on my hotspot, which is faster than any of the 
@@ -49,8 +49,23 @@ university networks, at least during the afternoon. Without fail, the esp32 woul
 networks, see that my hotspot was the new fastest known network, tell the laptop to conenct to it, and it would 
 connect automagically(tm).
 
-Now, we have a prototype that will swap to the fastest available known WiFi based on the real live internet 
-speed measurements :)
+## Testing
+We tested our prototype by simulating the situation that it is designed to solve:
+
+The network with the strongest *WiFi signal* and *advertised max network speed* **is not** the network 
+with the fastest internet speed.
+
+For the test, I had ChatGPT write a script to test the laptop's download speed continuously over a period of 2 minutes 
+and save the result to a json file. I ran our prototype for the first run of the test, and then 
+[the script from reddit](https://www.reddit.com/r/linux/comments/bbzm9t/automatically_switch_to_the_strongest_wifi_signal/)
+that switches based on WiFi signal strength and max network speed for the second run. Here are the results:
+
+![chart showing that the ESP32 auto switching script is up to 4x faster than signal-based switching](../images/autoswitch-chart.png)
+*ChatGPT also helped with the matplotlib chart :)*
+
+As you can see, the signal-based auto switcher stayed on the slower network, whereas the esp32 switcher identified the 
+true fastest network and connected to it, resulting in up to 4x faster download speeds. Additionally, this chart
+demonstrates that there is relatively little downtime when switching between networks with our prototype.
 
 ## Future ideas & contributing
 Although we have a working prototype, there is still a laundry list of things that we could add to this device 
