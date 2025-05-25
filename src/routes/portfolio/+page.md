@@ -2,7 +2,30 @@
 
 Here are some of the projects that I've built! For more examples, feel free to check out my [Github account](https://github.com/leiDnedyA/).
 
-## QRPigeon | [www.qrpigeon.pics](https://www.qrpigeon.pics/) | [Source Code](https://github.com/leiDnedyA/qr-image-drop/)
+## [ESP32 Network Switcher](/posts/2025-05-06_ESP32-Network-Autoswitcher) | [Source Code](https://github.com/leiDnedyA/esp32-network-speed-monitor)
+<span class="tag">C++</span> <span class="tag">Python</span> <span class="tag">Embedded Systems</span> <span class="tag">Linux</span>
+
+Some friends and I built this project for our internetworking class at UMass Boston. We set out to solve the problem of slow campus WiFi! 
+We used an ESP32 to scan WiFi speeds of available networks in the background, and tell the laptop which network to connect to for the best internet 
+connection.
+I wrote and shared a blog post about it [here](/posts/2025-05-06_ESP32-Network-Autoswitcher), where you can read all about the technical details.
+
+![](images/network-diagram.png)
+
+
+## [DailyKanji.xyz](https://www.dailykanji.xyz/) | [Source Code](https://github.com/leiDnedyA/japanese-wotd-nextjs/)
+<span class="tag">React</span> <span class="tag">TypeScript</span> <span class="tag">Next JS</span> <span class="tag">Supabase</span> <span class="tag">Python</span>
+
+For me, **DailyKanji** has been an interesting experiment in shipping an app to solve a real-world problem, marketing it, and iterating on it. It started off 
+from a pattern that I noticed when studying Japanese. I would spend around 2 weeks practicing daily, usually pushing myself to study 30 minutes to an hour a day.
+Eventually, though, I would always end up getting too busy to keep up, and eventually letting it fall by the wayside.
+
+DailyKanji helps users maintain consistency, even if it's just a small daily commitment. Users can build a daily streak of learning, with new words 
+fed to them daily. DailyKanji also implements a spaced-repetition system, based off of the [Anki Supermemo 2 algorithm](https://help.remnote.com/en/articles/6026144-the-anki-sm-2-spaced-repetition-algorithm).
+
+![dailykanij screenshot](portfolio/dailykanji.png)
+
+## QRPigeon | [Source Code](https://github.com/leiDnedyA/qr-image-drop/)
 <span class="tag">Python</span> <span class="tag">Flask</span> <span class="tag">JavaScript</span> <span class="tag">Linux</span> <span class="tag">GitHub Actions</span> <span class="tag">Azure</span>
 
 **QRPigeon** is a tool for **transferring files** quickly from a mobile device to a PC as fast as possible. Here are the steps for using it:

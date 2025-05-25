@@ -5,9 +5,11 @@ import PostList from "../components/PostList.svelte";
 
 # Ayden Diel
 
-Hi! I'm a developer from _Massachusetts_, and currently a **Computer Science** undergrad student at **UMass Boston**. Previously, I was a **SWE intern** at <span class="tag fidelity">Fidelity Investments</span>.
+Hi! I'm a developer from _Massachusetts_, and a **Computer Science undergrad** student at UMass Boston. I'm currently a software engineer 
+at [Paywell Solutions](https://paywell.solutions/), and previously I was a SWE intern at **Fidelity Investments**.
 
-I'm also the president of the <span class="tag umb">UMass Boston Computer Science Club</span>! [Check us out on LinkedIn](https://www.linkedin.com/company/umass-boston-computer-science-club/)
+I'm an avid [hacker news](https://news.ycombinator.com/) reader, and I love technical writing, web development, and security research. For more 
+info about what I'm working on, check out my blog!
 
 ## My Blog
 
