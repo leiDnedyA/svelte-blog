@@ -2,13 +2,13 @@
 
 Here are some of the projects that I've built! For more examples, feel free to check out my [Github account](https://github.com/leiDnedyA/).
 
-## [ESP32 Network Switcher](/posts/2025-05-06_ESP32-Network-Autoswitcher) | [Source Code](https://github.com/leiDnedyA/esp32-network-speed-monitor)
+## [ESP32 Network Switcher](https://aydendiel.dev/posts/2025-05-06_ESP32-Network-Autoswitcher) | [Source Code](https://github.com/leiDnedyA/esp32-network-speed-monitor)
 <span class="tag">C++</span> <span class="tag">Python</span> <span class="tag">Embedded Systems</span> <span class="tag">Linux</span>
 
 Some friends and I built this project for our internetworking class at UMass Boston. We set out to solve the problem of slow campus WiFi! 
 We used an ESP32 to scan WiFi speeds of available networks in the background, and tell the laptop which network to connect to for the best internet 
 connection.
-I wrote and shared a blog post about it [here](/posts/2025-05-06_ESP32-Network-Autoswitcher), where you can read all about the technical details.
+I wrote and shared a blog post about it [here](https://aydendiel.dev/posts/2025-05-06_ESP32-Network-Autoswitcher), where you can read all about the technical details.
 
 ![](images/network-diagram.png)
 

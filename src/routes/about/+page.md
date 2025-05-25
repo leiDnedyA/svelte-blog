@@ -15,4 +15,4 @@ I'm currently persuing a **bachelor's degree** in Computer Science at UMass Bost
 - _May - Sep 2023_ | Summer Computer Science Research Assistant @ <span class="tag umb"><a href="https://cs.umb.edu/">UMass Boston</a></span>
 - _Feb - May 2023_ | TA for Intro to Computer Science @ <span class="tag umb"><a href="https://cs.umb.edu/">UMass Boston</a></span>
 
-To find my full resume, check out my [contact page](/contact).
+To find my full resume, check out my [contact page](https://aydendiel.dev/contact).

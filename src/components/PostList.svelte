@@ -89,10 +89,6 @@
 		padding: 0;
 	}
 
-	.post-link > strong {
-		color: white;
-	}
-
 	a {
 		text-decoration: none;
 	}
