@@ -2,6 +2,14 @@
 
 Here are some of the projects that I've built! For more examples, feel free to check out my [Github account](https://github.com/leiDnedyA/).
 
+## [WebGL Chip-8 Emulator](https://leidnedya.github.io/chip8/) | [Source Code](https://github.com/leiDnedyA/chip8)
+<span class="tag">JavaScript</span> <span class="tag">Hardware Simulation</span> <span class="tag">WebGL / Graphics Programming</span>
+
+This is a full emulator for a [chip-8 based computer](https://en.wikipedia.org/wiki/CHIP-8), written fully in JavaScript and WebGL without 
+a single dependency. Try playing pong on it [here](https://github.com/leiDnedyA/chip8)!
+
+![](images/chip-8.png)
+
 ## [ESP32 Network Switcher](https://aydendiel.dev/posts/2025-05-06_ESP32-Network-Autoswitcher) | [Source Code](https://github.com/leiDnedyA/esp32-network-speed-monitor)
 <span class="tag">C++</span> <span class="tag">Python</span> <span class="tag">Embedded Systems</span> <span class="tag">Linux</span>
 
